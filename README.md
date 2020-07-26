@@ -21,3 +21,11 @@ Create 4 variables in it
     email_pass variable for Auth password
 
 ![pic1](https://user-images.githubusercontent.com/47297909/88476902-91993f80-cf59-11ea-9ec6-937609badc28.png)
+
+Now, to decrypt the files we received from mail use decrypter tool
+
+![pic1](https://user-images.githubusercontent.com/47297909/88477405-5d278280-cf5d-11ea-8cf0-1c1f47770a4e.png)
+
+These Decrypter is used to decrypt the log file and image file which we received on email
+
+Now input the password and press decrypt..
