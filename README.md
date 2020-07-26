@@ -1,5 +1,7 @@
 # Autologger
 
+![CRAN/METACRAN](https://img.shields.io/cran/l/devtools)   ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django)
+
 # Description
 These project is based on concept of "Keylogger" referred to as keylogging or keyboard capturing, is the action of recording the keys struck on a keyboard, typically covertly, so that person using the keyboard is unaware that their actions are being monitored. Data can then be retrieved by the person operating the logging program.
 
@@ -7,6 +9,7 @@ These project is based on concept of "Keylogger" referred to as keylogging or ke
 1) Encryption & Decryption
 2) Auto-Mail
 3) Auto User Pics
+
 
 
 
