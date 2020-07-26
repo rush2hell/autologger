@@ -15,9 +15,9 @@ Now, first go to Environment variables
 
 Create 4 variables in it
 
-    1. your_mail variable for email address
-    2. enc_pass variable for encryption password
-    3. email_address variable for Auth mail
-    4. email_pass variable for Auth password
+    your_mail variable for email address
+    enc_pass variable for encryption password
+    email_address variable for Auth mail
+    email_pass variable for Auth password
 
 ![pic1](https://user-images.githubusercontent.com/47297909/88476902-91993f80-cf59-11ea-9ec6-937609badc28.png)
